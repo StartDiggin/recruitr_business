@@ -1,0 +1,53 @@
+.navbar .nav-link {
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 1em !important;
+  padding-right: 1em !important; }
+
+.navbar .nav-item.active {
+  border-left: #444 3px solid; }
+
+.fa {
+  font-size: 50px; }
+
+#showcase {
+  position: relative;
+  min-height: 450px;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff; }
+  #showcase .carousel-item {
+    height: 450px; }
+  #showcase .carousel-image-1 {
+    background: url("../img/desk.png");
+    background-size: cover; }
+  #showcase .carousel-image-2 {
+    background: url("../img/people.png");
+    background-size: cover; }
+  #showcase .carousel-image-3 {
+    background: url("../img/security.png");
+    background-size: cover; }
+
+.dark-overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%; }
+
+.bottom {
+  height: 500px;
+  width: 100%; }
+
+#about img {
+  margin-top: -50px; }
+
+#about .fa {
+  font-size: 25px; }
+
+#about .card:hover {
+  background: #3292a6;
+  color: #fff; }
+  #about .card:hover .fa {
+    color: #fff; }
